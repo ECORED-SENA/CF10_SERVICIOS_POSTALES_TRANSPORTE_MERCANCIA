@@ -1,0 +1,391 @@
+//////// Banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner/fondo-banner-interno.jpg") !important
+  background-repeat: no-repeat  
+  
+/////// Utilidades de imagenes
+.img100
+  width: 100px
+.img130
+  width: 130px
+.img150
+  width: 150px
+.img200
+  width: 200px
+.img300
+  width: 300px
+.img350
+  width: 350px
+.img385
+  max-width: 385px
+.img400
+  max-width: 400px
+.img430
+  max-width: 430px
+.img450
+  max-width: 450px
+.img500
+  max-width: 500px
+.img600
+  max-width: 600px
+.img630
+  max-width: 630px
+.img800
+  max-width: 800px
+
+
+////// Utilidades texto 
+
+.banner-interno__titulo__icono 
+  background-color: #12263F !important
+
+.banner-interno__titulo h2
+  color: #12263F !important
+
+.text-end
+  text-align: left !important
+
+.sq--pink
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: 50%
+    height: 35%
+    top: -1rem
+    right: 0
+    background-color: #FFE0DD
+
+.cajon
+  &.cjn--rojo
+    background-color: #FFCEC9
+    &::before
+      background-color: #FF8578
+  &.cjn--amarillo
+    background-color: #FFEECA
+    &::before
+      background-color: #FED981
+  &.cjn--gris
+    background-color: #E8E8E8
+    &::before
+      background-color: #727997
+
+.bloque-texto-g
+  &.clr--yellow
+    background-color: #FED981
+  &.clr--pink
+    background-color: #FF8578
+
+/////// Banner texto destacado 
+
+.bloque-texto-a.img-01
+  background-color: #FF8578
+  &::before
+    background-image: url("../assets/curso/tema3/t3_18.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  @media only screen and (max-width: 999px)
+    &::before     
+      display: none 
+
+
+
+////// Utilidades fondos
+
+.bg_img_01
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url("../assets/curso/bg_img_01.png")
+    background-position: center
+    background-repeat: no-repeat
+
+.bg_img_02
+  width: 100%
+  height: 100%
+  padding: 3rem
+  background-image: url("../assets/curso/tema2/t2_05.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-image: cover
+
+/////// Utilidades tarjetas
+
+.tarjeta.tarjeta--rosa
+  background-color:#FFCEC9 
+
+.crd
+  padding: 1.5rem
+  &.crd--01
+    position: relative
+    width: 335px
+    height: 100%
+    background-color: #FFF3CD
+    transition: all 0.5s ease-out
+    .crd_circle    
+      position: relative 
+      width: 130px
+      height: 130px      
+      background-color: #FED981
+      border-radius: 999px
+      .crd_circle--img 
+        position: absolute
+        width: 100px
+        height: 100px
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        img
+          width: 100px
+          height: 100px
+    &:hover
+      background-color: #A4A3FF
+      .crd_circle        
+        background-color: #FF8578
+
+  &.crd--white
+    background-color: white
+
+  &.crd--gray
+    background-color: #F6F6F6
+
+  &.crd--yellow
+    position: relative
+    padding: 0 !important
+    background-color: #FFF3CD
+    border-radius: 15px
+     
+  &.crd--gradient01
+    padding: 0.5rem !important
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,243,205,1) 100%)
+
+  &.card--yellowHover    
+    height: 100%
+    border-radius: 12px
+    background-color: #FFF7E6    
+    .clr-border 
+      border-left: 5px solid #5263E2
+      padding-left: 1rem   
+      height: 80%        
+    &:hover
+      background-color: #D8DCF2
+
+  &.crd--modal
+    position: absolute
+    //padding: 2rem
+    margin: 0 3rem
+    border-radius: 15px
+    background-color: #E8E8E8   
+    top: 50%
+    left: 0
+    transform: translateY(-50%)
+    background-image: url("../assets/curso/tema3/modal_bg.svg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+  &.crd--slyder
+    background-image: url("../assets/curso/tema1/slyder_bg.png")
+    background-position: left
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 15px
+
+  &.crd--slyder02
+    background-image: url("../assets/curso/tema1/slyder_bg_02.png")
+    background-position: left
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 15px
+
+  &.crd--modal01
+    background-image: url("../assets/curso/tema1/slyder_bg_02.png")
+    background-position: left
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 15px
+
+  &.crd--info
+    position: relative
+    padding: 1rem 1rem 1rem 2rem
+    background-color: #FED981    
+    border-radius: 15px
+    &::before
+      content: attr(numero)
+      position: absolute
+      top: -1rem
+      left: -1rem
+      padding: 0.75rem 0.75rem 1.5rem 0.75rem
+      background-color: #FF8578
+      font-weight: 600
+      border-radius: 7px
+
+
+  &.crd--shadow
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13)
+
+.img-infografica-b__modal__contenido div > *
+  color: #12263F !important
+
+.img-infografica-b__modal__btn-cerrar
+  top: 30% !important
+
+///////// Card hover
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden  
+  
+  &:hover    
+    .crd_hover_txt--font     
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--font
+    position: absolute
+    padding: 2rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.5rem ))
+    background-color: rgba(255, 247, 230, 0.9) 
+
+.cta--purple
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    border-radius: 15px
+    background-color: #949ff0
+
+  @media only screen and (max-width: 999px)
+    &::before     
+      height: 100%  
+
+.cta--yellow
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    border-radius: 15px
+    background-color: #FED981
+
+  @media only screen and (max-width: 999px)
+    &::before     
+      height: 100%    
+
+.cta--rosa
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    border-radius: 15px
+    background-color: #FF9D92
+
+  @media only screen and (max-width: 999px)
+    &::before     
+      height: 100%     
+
+
+////// utilidades tablas
+
+.cell--gray  
+  background-color: #F6F6F6
+.cell--yellow  
+  background-color: #FFF3CD
+.cell--blue  
+  background-color: #D2E1F1
+
+.customTable_01
+  thead
+    border-top: none
+    background-color: #FFF3CD
+    tr      
+      th
+        font-size: 1em !important
+
+.cell_title
+  background-color: #7181F4
+  border-top: 3px solid #FED981
+  h5
+    padding: 0.75rem 0
+    margin: 0
+    color: white
+
+.customTable_02
+  overflow-x: auto
+  table
+    min-width: 700px
+    thead, tbody
+      tr 
+        background-color: #F9F9F9
+
+/////// Slyder custom
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFC743
+
+.slyder-a__bullets__item
+  background-color: #bdbdbd
+
+.slyder-a__bullets__item.slyder-a__bullets__item--active
+    background-color: #FFC743 
+    border: #FFC743
+
+/////////// Custom infografia tipo A
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: 1
+
+/////// modal custom
+
+.modal-a__content
+  background-image: url("../assets/curso/tema1/modal_bg_01.png")
+  background-position: left top 
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 15px 
+
+
+
+      
+
+
+
+        
+        
+      
+      
+      
+      
+       
+        
+
+
