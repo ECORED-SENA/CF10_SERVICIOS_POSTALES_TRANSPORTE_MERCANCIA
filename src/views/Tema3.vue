@@ -364,7 +364,7 @@
 
     p.mb-5 El desarrollo de las inspecciones debe realizarse por fases, teniendo en cuenta sus características propias; así:
 
-    ImagenInfograficaB.color-primario.mb-5(data-aos="zoom-in")
+    ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/t3_19.svg', alt='')          
@@ -465,6 +465,37 @@
           img(src='@/assets/curso/tema3/t3_30.png').img100.m-auto
       .col
         p Dentro del proceso logístico existe un documento denominado nota de entrega (Albarán), el objetivo es servir como respaldo que acredite la entrega de la mercancía al cliente en las condiciones inicialmente pactadas y así generar la información para elaborar la factura.  En caso que la mercancía recibida no cumpla con lo solicitado o registrado en el pedido, podrá devolverse al sitio de despacho y dejar por escrito la salvedad de la devolución firmando y describiendo en el albarán.  La información que debe contener es:
+
+    .row.justify-content-center
+      .col-lg-8
+        ImagenInfografica.color-primario(data-aos="zoom-in")
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema3/t3_31.svg', alt='')          
+
+          .crd.crd--purple(x="75%" y="7.5%" numero="+")            
+            p.mb-0 Documento que justifica recepción de mercancía.
+          .crd.crd--purple(x="88%" y="15.8%" numero="+")            
+            p.mb-0 Número de orden
+          .crd.crd--purple(x="20%" y="15.8%" numero="+")            
+            p.mb-0 Datos del vendedor
+          .crd.crd--purple(x="25%" y="32.5%" numero="+")            
+            p.mb-0 Datos del cliente
+          .crd.crd--purple(x="25%" y="36.8%" numero="+")            
+            p.mb-0 Lugar de entrega de las mercancías
+          .crd.crd--purple(x="16%" y="45.5%" numero="+")            
+            p.mb-0 Cantidad en unidades
+          .crd.crd--purple(x="33%" y="45.5%" numero="+")            
+            p.mb-0 Descripción de la mercancía
+          .crd.crd--purple(x="33%" y="82%" numero="+")            
+            p.mb-0 Forma de envío
+          .crd.crd--purple(x="73%" y="85%" numero="+")            
+            p.mb-0 Conformidad mediante firma del cliente de que el envío es correcto.
+
+
+
+
+
 
 
 

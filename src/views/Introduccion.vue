@@ -5,7 +5,7 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span i
+        span.text-white i
       h1 Introducción
 
     .row.justify-content-center.align-item-center.mb-5

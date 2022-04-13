@@ -365,57 +365,57 @@
 
     .row.justify-content-center 
       .col-9.col-lg-4
-        a(@click="modal1 = true")
+        a(@click="modalA1 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt01.svg", alt="alt").m-auto
       
-        a(@click="modal2 = true")
+        a(@click="modalA2 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt02.svg", alt="alt").m-auto
       
-        a(@click="modal3 = true")
+        a(@click="modalA3 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt03.svg", alt="alt").m-auto
       
-        a(@click="modal4 = true")
+        a(@click="modalA4 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt04.svg", alt="alt").m-auto
 
       .col-9.col-lg-4
-        a(@click="modal8 = true")          
+        a(@click="modalA8 = true")          
           figure.mb-5(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt08.svg", alt="alt").m-auto
       
-        a(@click="modal7 = true")          
+        a(@click="modalA7 = true")          
           figure.mb-5(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt07.svg", alt="alt").m-auto
       
-        a(@click="modal6 = true")
+        a(@click="modalA6 = true")
           figure.mb-4(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt06.svg", alt="alt").m-auto
       
-        a(@click="modal5 = true")
+        a(@click="modalA5 = true")
           figure.mb-5(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt05.svg", alt="alt").m-auto
 
       .col-9.col-lg-4
-        a(@click="modal9 = true")
+        a(@click="modalA9 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt09.svg", alt="alt").m-auto
       
-        a(@click="modal10 = true")
+        a(@click="modalA10 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt10.svg", alt="alt").m-auto
      
-        a(@click="modal11 = true")
+        a(@click="modalA11 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt11.svg", alt="alt").m-auto
       
-        a(@click="modal12 = true")
+        a(@click="modalA12 = true")
           figure.mb-3(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/bt12.svg", alt="alt").m-auto
 
-    ModalA(:abrir-modal.sync="modal1")
+    ModalA(:abrir-modal.sync="modalA1")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Utilización de muelles
@@ -424,7 +424,7 @@
           figure
             img(src="@/assets/curso/tema1/m_01.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal2")
+    ModalA(:abrir-modal.sync="modalA2")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Aproximación de vehículo
@@ -433,7 +433,7 @@
           figure
             img(src="@/assets/curso/tema1/m_02.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal3")
+    ModalA(:abrir-modal.sync="modalA3")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Alistamiento de muelle
@@ -442,7 +442,7 @@
           figure
             img(src="@/assets/curso/tema1/m_03.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal4")
+    ModalA(:abrir-modal.sync="modalA4")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Acceso
@@ -451,7 +451,7 @@
           figure
             img(src="@/assets/curso/tema1/m_04.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal5")
+    ModalA(:abrir-modal.sync="modalA5")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Aseguramiento de elementos externos
@@ -460,7 +460,7 @@
           figure
             img(src="@/assets/curso/tema1/m_05.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal6")
+    ModalA(:abrir-modal.sync="modalA6")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Entrega documentos
@@ -469,7 +469,7 @@
           figure
             img(src="@/assets/curso/tema1/m_06.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal7")
+    ModalA(:abrir-modal.sync="modalA7")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Acoplar rampa
@@ -478,7 +478,7 @@
           figure
             img(src="@/assets/curso/tema1/m_07.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal8")
+    ModalA(:abrir-modal.sync="modalA8")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Cargue o descargue de mercancía
@@ -487,7 +487,7 @@
           figure
             img(src="@/assets/curso/tema1/m_08.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal9")
+    ModalA(:abrir-modal.sync="modalA9")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Inspección de mercancía
@@ -497,7 +497,7 @@
           figure
             img(src="@/assets/curso/tema1/m_09.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal10")
+    ModalA(:abrir-modal.sync="modalA10")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Documentación
@@ -507,7 +507,7 @@
           figure
             img(src="@/assets/curso/tema1/m_10.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal11")
+    ModalA(:abrir-modal.sync="modalA11")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Recogida de elementos externos
@@ -517,7 +517,7 @@
           figure
             img(src="@/assets/curso/tema1/m_11.png", alt="alt").img385.m-auto
 
-    ModalA(:abrir-modal.sync="modal12")
+    ModalA(:abrir-modal.sync="modalA12")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Salida de vehículo
@@ -1138,18 +1138,18 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    modal1: false,
-    modal2: false,
-    modal3: false,
-    modal4: false,
-    modal5: false,
-    modal6: false,
-    modal7: false,
-    modal8: false,
-    modal9: false,
-    modal10: false,
-    modal11: false,
-    modal12: false,
+    modalA1: false,
+    modalA2: false,
+    modalA3: false,
+    modalA4: false,
+    modalA5: false,
+    modalA6: false,
+    modalA7: false,
+    modalA8: false,
+    modalA9: false,
+    modalA10: false,
+    modalA11: false,
+    modalA12: false,
   }),
   mounted() {
     this.$nextTick(() => {
