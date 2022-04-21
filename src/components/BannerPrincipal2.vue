@@ -7,6 +7,8 @@
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .imagen_flotante_1: img(src='@/assets/curso/banner/img01.png')
         .imagen_flotante_2: img(src='@/assets/curso/banner/img02.png')
+        .imagen_flotante_4: img(src='@/assets/curso/banner/img04.png')
+        .imagen_flotante_5: img(src='@/assets/curso/banner/img05.png')
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .banner-principal__descripcion
@@ -132,17 +134,17 @@ export default {
     animation-delay: 1.5s
     position: absolute
     transform-origin: top
-    width: 52px
-    left: 78%
-    top: 8%
+    width: 65px
+    left: -2%
+    bottom: 12%
   &_5
     animation: float 2s ease-out infinite alternate
     animation-delay: 0.8s reverse
     position: absolute
     transform-origin: top
-    width: 42px
-    left: 90%
-    bottom: 15%
+    width: 110px
+    right: -4%
+    top: 5%
 
 @keyframes float
   0%

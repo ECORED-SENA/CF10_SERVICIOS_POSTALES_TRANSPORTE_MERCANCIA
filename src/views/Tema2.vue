@@ -44,12 +44,13 @@
         li #[strong - Codificación libre al azar:] se asigna un código al azar, para aquellos productos nuevos.
         li #[strong - Codificación Inteligente:] se utilizan los códigos de familias y subfamilias, así: 
           br
-          | #[span.ms-3 Familias de productos principales: Utilizan 2 dígitos numéricos.]
           br
-          | #[span.ms-3 Subfamilia: Subdivisión de la familia, utilizan 2 dígitos más.]
+          | #[span.ms-3 Familias de productos principales: utilizan 2 dígitos numéricos.]
+          br
+          | #[span.ms-3 Subfamilia: subdivisión de la familia, utilizan 2 dígitos más.]
           br
           | #[span.ms-3 Referencia única: asignación de código específico para el producto de 3 dígitos en adelante.] 
-      p.mb-2 Ejemplo: Camisa adulto referencia 56789, de la colección 2020, subfamilia 34 (talla M).
+      p.mb-2 Ejemplo: camisa adulto referencia 56789, de la colección 2020, subfamilia 34 (talla M).
       p.mb-0 Código: #[strong 203456789].
 
     h3.mb-5 Códigos y etiquetas
@@ -61,7 +62,7 @@
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema2/t2_04.svg", alt="alt").img270.m-auto
           .col
-            p De acuerdo al ítem anterior, la codificación puede ser libre de acuerdo a la naturaleza de la organización; sin embargo, en Colombia a través del:
+            p De acuerdo al ítem anterior, la codificación puede ser libre según la naturaleza de la organización; sin embargo, en Colombia a través del:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -91,19 +92,20 @@
             th.text-center DESCRIPCI&Oacute;N
             th.text-center IMAGEN
         tbody
-          tr
-            td.text-center #[strong C&Oacute;DIGO DE BARAS]
+          tr.cell--gray 
+            td.text-center #[strong C&Oacute;DIGO DE BARRAS]
             td
               | Denominado sistema GS1 de identificaci&oacute;n y transmisi&oacute;n de datos mediante c&oacute;digo de barras.  Utilizado en m&aacute;s de 105 pa&iacute;ses.  Permite identificar todas las unidades de productos en la cadena log&iacute;stica.
               br
               | Se compone de dos partes: c&oacute;digo num&eacute;rico y el s&iacute;mbolo; las barras contienen informaci&oacute;n codificada.
             td.py-4 #[img(src="@/assets/curso/tema2/t2_08.svg" alt="" style="width:350px;").m-auto]           
-          tr
+          tr.cell--gray 
             td.text-center #[strong GTIN 13]
             td
               | C&oacute;digo indicado para identificar mercanc&iacute;a o productos que se dirigen al punto de venta. Est&aacute; conformado por:
               br
-              | Prefijo asignado al pa&iacute;s (Colombia_770)
+              br
+              | Prefijo asignado al pa&iacute;s (Colombia-70)
               br
               | Prefijo de la empresa (5-8 d&iacute;gitos)
               br
@@ -111,39 +113,43 @@
               br
               | C&oacute;digo de control
             td.py-4 #[img(src="@/assets/curso/tema2/t2_09.svg" alt="" style="width:370px;").m-auto] 
-          tr
+          tr.cell--gray 
             td.text-center #[strong GTIN 14]
             td
-              | Denominado tambi&eacute;n EAN14, por componerse de 14 d&iacute;gitos.  Utilizado para cada unidad del producto contenida en un grupo GTIN13, se elimina el c&oacute;digo de control y se asigna uno nuevo al inicio. Ver imagen
+              | Denominado tambi&eacute;n EAN14, por componerse de 14 d&iacute;gitos. <br><br>Utilizado para cada unidad del producto contenida en un grupo GTIN13, se elimina el c&oacute;digo de control y se asigna uno nuevo al inicio. Ver imagen
             td.py-4 #[img(src="@/assets/curso/tema2/t2_10.svg" alt="" style="width:430px;").m-auto] 
-          tr
+          tr.cell--gray 
             td.cell--yellow.text-center #[strong GS1-128]
             td
               | Sistema est&aacute;ndar internacional de identificaci&oacute;n de mercanc&iacute;as en entornos log&iacute;sticos.
               br
+              br
               | Requisito: toda la informaci&oacute;n de la etiqueta debe ser legible.
+              br
               br
               | Contenido: caracter&iacute;sticas del producto, c&oacute;digo agrupaci&oacute;n, cantidad, lote, fecha fabricaci&oacute;n, envasado, consumo, etc.
               br
               | Importante tener en cuenta que esta etiqueta deber&aacute; estar en el producto a lo largo de toda la cadena de suministro
             td.py-4 #[img(src="@/assets/curso/tema2/t2_11.png" alt="" style="width:170px;").m-auto] 
-          tr
+          tr.cell--gray 
             td.text-center #[strong C&Oacute;DIGO DATA MATRIX]
             td
               | Sistema de c&oacute;digo de barras bidimensionales (2D), que permite almacenar gran cantidad de informaci&oacute;n en una matriz de puntos.
+              br
               br
               | Requiere un contacto visual entre el equipo lector y el c&oacute;digo.
             td.py-4 #[img(src="@/assets/curso/tema2/t2_12.svg" alt="" style="width:170px;").m-auto] 
 
     .row.justify-content-center
       .col-lg-10
-        .cta--purple
+        .cta--purple2
+          .bubble--right          
           .row.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/t2_13.png", alt="alt").img350.m-auto
-            .col-12.col-lg.px-5.pt-0.pt-lg-5
-              p.text-white.mb-4 Para ampliar la información, lo invitamos a consultar #[strong “Gestión de operaciones de almacenaje”] haciendo clic en el enlace.
+            .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
+              p.mb-4 Para ampliar la información, lo invitamos a consultar #[strong “Gestión de operaciones de almacenaje”] haciendo clic en el enlace.
 
               a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=66" target="_blank").mb-5.mb-lg-0
                 span Ingresar

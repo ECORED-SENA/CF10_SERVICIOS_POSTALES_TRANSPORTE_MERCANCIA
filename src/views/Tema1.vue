@@ -10,8 +10,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-5.mb-lg-0
-        figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/t1_01.png", alt="alt").img350.m-auto
+        .float--container
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/t1_01.png", alt="alt").img350.m-auto
+          figure
+            img(src="@/assets/curso/Float_01.png", alt="alt").float_01.img100
       .col-lg-8
         .cajon.cjn--rojo.p-4.mb-4(data-aos="fade-left")
           p.mb-0 Cuando se habla de la manipulación de productos, se hace referencia a maniobrar las mercancías, hacerlas más ligeras para una mejor manipulación y posterior desplazamiento hacia cajas, estibas o consolidación de la mercancía en el centro de distribución; esta actividad se podrá realizar de forma manual, automática o semiautomática.  La manipulación tradicional puede ser de forma #[strong manual] o semiautomática, mientras la manipulación #[strong continua] es automatizada en su totalidad; en ambos casos lo que se pretende es realizar actividades de recepción, almacenamiento, preparación de pedidos y despacho.  
@@ -19,7 +22,7 @@
         p.mb-0 En aquellos sistemas manuales y de acuerdo a estándares para manejo de cargas en salud ocupacional, un operario de género masculino está en capacidad de trasladar cargas hasta de 25 kg con un recorrido máximo de 30 m, mientras que la mujer podrá realizar traslados máximos de 15 kg; un mecanismo de apoyo para superar estas limitaciones y aumentar la capacidad tanto de carga como traslados son los diferentes equipos de manipulación y movimentación de cargas, importante tener en cuenta aspectos como rotación de productos y espacio disponible al momento de elegir.  A continuación, se describen las características de las principales formas de manipulación de los productos:
 
     .titulo-sexto.color-acento-contenido
-      h5 figura 1.
+      h5 Figura 1.
       span Formas de manipulación de los productos
 
     .bg_img_01
@@ -36,20 +39,20 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Técnicas de manipulación 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-7
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
         p En la gestión del almacén se requieren establecer aquellas técnicas de manipulación más favorables de acuerdo a las características del producto, los medios o equipos de manipulación necesarios para mover y trasladar mercancías dentro del almacén y los medios o equipos de almacenamiento, que hace referencia a los estantes, cajas, armarios, suelos, silos, contenedores, etc. que sirven para guardar mercancías requeridas posteriormente.
 
         p Existe un gran número de equipos de almacenamiento, así como los diversos tipos de mercancías, lo que se requiere es analizar y seleccionar los más adecuados para los productos.  Incluso se puede solicitar asesoría con el proveedor sobre nuevas tecnologías, materiales o formas de almacenar.  De igual forma las actividades de manipulación de mercancías se pueden utilizar sistemas manuales o automatizados, lo cual requiere recursos humanos y materiales. 
 
         p.mb-0 La siguiente imagen presenta la clasificación y descripción general de los equipos de manipulación y movimentación.
 
-      .col-lg-5.mb-5.mb-lg-0
+      .col-lg-6.mb-5.mb-lg-0
         figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/t1_04.png", alt="alt").img450.m-auto
+            img(src="@/assets/curso/tema1/t1_04.png", alt="alt").img630.m-auto
 
     .titulo-sexto.color-acento-contenido
-      h5 figura 2.
+      h5 Figura 2.
       span Clasificación equipos de manipulación y movimentación
 
     .bg_img_01.mb-5
@@ -79,7 +82,7 @@
     figure.mb-5
       img(src="@/assets/curso/tema1/t1_08.png", alt="alt").m-auto
 
-    h3.mb-5 Analice ahora los equipos Estáticos
+    h3.mb-5 Analice ahora los equipos estáticos
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -90,7 +93,7 @@
           .bloque-texto-g__texto.p-5
             p.mb-0 #[strong Estáticos sin traslado:] se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales y los más comunes son los silos de almacenamiento.
 
-    p.mb-5 Teniendo claridad sobre los diferentes equipos para la manipulación de las mercancías, se puede dar inicio a manipular los productos o pedidos, con el objetivo de reducir recorridos, disminuir tiempos, operaciones, y mantener una rotación de stock precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes tareas:
+    p.mb-5 Teniendo claridad sobre los diferentes equipos para la manipulación de las mercancías, se puede dar inicio a manipular los productos o pedidos, con el objetivo de reducir recorridos, disminuir tiempos, operaciones, y mantener una rotación de <i>stock</i> precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes tareas:
 
     .row.justify-content-center.mb-5
       .col-auto.mb-4(data-aos="zoom-in")
@@ -100,7 +103,7 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_10.png", alt="alt")
-            h5.text-center Prepraración previa:
+            h5.text-center Prepraración previa
             p.text-center Seleccionar toda la información relacionada con los pedidos y organizar los recursos necesarios para la preparación.
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
@@ -109,7 +112,7 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_11.png", alt="alt")
-            h5.text-center Recogida:
+            h5.text-center Recogida
             p.text-center Recorrido que realiza el operario para seleccionar los productos, desde la zona de operaciones hasta el lugar en donde están las mercancías y objetos postales.
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
@@ -118,8 +121,8 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_12.png", alt="alt")
-            h5.text-center Extracción:
-            p.text-center Posterior a la localización del producto en la bodega, se retira la cantidad relacionada en el pedido y es llevada al sistema de transporte de productos interno (roll, palet, entre otros).
+            h5.text-center Extracción
+            p.text-center Posterior a la localización del producto en la bodega, se retira la cantidad relacionada en el pedido y es llevada al sistema de transporte de productos interno (<i>roll</i>, <i>palet</i>, entre otros).
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
           .row.justify-content-center
@@ -127,7 +130,7 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_13.png", alt="alt")
-            h5.text-center Verificacion:
+            h5.text-center Verificacion
             p.text-center El operario vuelve a la zona de operaciones y verifica que retiró los productos correctos.
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
@@ -136,8 +139,8 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_14.png", alt="alt")
-            h5.text-center Preparación:
-            p.text-center La mercancía continúa hacia la actividad de embalaje o packing, precintado, pesaje y etiquetado del paquete, para su posterior traslado al lugar de despacho en donde se precisará su ruta de destino y servicio de entrega.
+            h5.text-center Preparación
+            p.text-center La mercancía continúa hacia la actividad de embalaje o <i>packing</i>, precintado, pesaje y etiquetado del paquete, para su posterior traslado al lugar de despacho en donde se precisará su ruta de destino y servicio de entrega.
 
     p.mb-5 Existen dos factores importantes al momento de manipular un producto, como son: número de personas disponibles o sistema de extracción del producto; recorrido o movimiento de las personas, como se describen a continuación: 
 
@@ -157,25 +160,25 @@
                   | #[strong Extracci&oacute;n individual]    
                   br
                 td
-                  | Un pedido preparado   por UNA persona.   
+                  | Un pedido preparado por una persona.   
                   br
-              tr
+              tr.cell--gray 
                 td
                   | #[strong Extracci&oacute;n individual dividida]   
                   br
                 td
-                  | Un pedido preparado   por varias personas.   
+                  | Un pedido preparado por varias personas.   
                   br
               tr.cell--gray 
                 td
                   | #[strong Extracci&oacute;n conjunta ]  
                   br
                 td
-                  | VARIOS pedidos   preparados por UNA persona.   
+                  | Varios pedidos preparados por una persona.   
                   br
-              tr
+              tr.cell--gray 
                 td #[strong Extracci&oacute;n conjunta dividida]
-                td VARIOS pedidos   preparados por varias personas.   
+                td Varios pedidos preparados por varias personas.   
      
     .row.justify-content-center.mb-5 
       .col-lg-12
@@ -205,29 +208,30 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cta--purple
+          .bubble--right
+          .dots--right
           .row.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/t1_15.png", alt="alt").img385.m-auto
-            .col-12.col-lg.px-5.pt-0.pt-lg-5
+            .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
               p.text-white.mb-4 Para ampliar la información, ingrese al Sistemas de Biblioteca Sena: Flamarique, S. Gestión de operaciones de almacenaje. Barcelona: Marge Books, 2017.
 
-              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
-                span Descargar
-                i.fas.fa-file-download
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=55" target="_blank").mb-5.mb-lg-0
+                span Ingresar
+                i.fas.fa-link           
+
+                
 
     separador
 
     #t_1_2.titulo-segundo.color-secundario
       h2 1.2 Zonas cargue y descargue    
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.mb-5.mb-lg-0
-        figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/t1_16.png", alt="alt").img600.m-auto
-      .col-lg-6  
-        .crd.crd--white.crd--shadow.p-5
-          p.mb-0 Para hablar de zonas de cargue y descargue, debemos recordar que el proceso logístico requiere de un conjunto de medios y métodos para desarrollar la actividad o servicio específico; por tanto, requiere de la optimización de los recursos para conseguir los mejores resultados.  Uno de los principales recursos es el almacén, que sirve de elemento regulador en el flujo de las mercancías en la red logística. El almacén podría definirse como aquella locación donde se realizan funciones de recepción, manipulación, conservación, protección y posterior despacho de productos.
+    figure(data-aos="fade-right").mb-5
+      img(src="@/assets/curso/tema1/t1_16.png", alt="alt").m-auto
+      
+    p.mb-4 Para hablar de zonas de cargue y descargue, debemos recordar que el proceso logístico requiere de un conjunto de medios y métodos para desarrollar la actividad o servicio específico; por tanto, requiere de la optimización de los recursos para conseguir los mejores resultados. Uno de los principales recursos es el almacén, que sirve de elemento regulador en el flujo de las mercancías en la red logística. El almacén podría definirse como aquella locación donde se realizan funciones de recepción, manipulación, conservación, protección y posterior despacho de productos.
 
     .tarjeta.color-primario.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
@@ -242,7 +246,7 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    h3 Principales zonas del almacén:
+    h3 Principales zonas del almacén
 
     .crd.crd--gradient01.mb-5
       .row.justify-content-center.align-items-center
@@ -258,7 +262,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
-                h4.mb-4 Layout  o diseño áreas de bodega
+                h4.mb-4 <i>Layout</i> o diseño áreas de bodega
                 p Etapa previa al diseño, la organización distribuye el espacio sobre plano e identifica las diferentes zonas de la bodega; deben tenerse en cuenta algunos factores como: volumen de la operación, tipo de mercancía y control de unidades.        
               .col-md-4
                 figure
@@ -299,7 +303,7 @@
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
                 h4.mb-4 Zona de almacenamiento
-                p Son las zonas más complejas de la bodega; es el lugar donde se depositan las mercancías hasta registrar la expedición; en esta zona se diferencian dos áreas: A) Stock, área destinada a la reserva de los productos. B) Picking, área donde se preparan los pedidos para el embalaje.      
+                p Son las zonas más complejas de la bodega; es el lugar donde se depositan las mercancías hasta registrar la expedición; en esta zona se diferencian dos áreas: A) <i>stock</i>, área destinada a la reserva de los productos. B) <i>Picking</i>, área donde se preparan los pedidos para el embalaje.      
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema1/t1_24.png', alt='').img350.m-auto
@@ -347,7 +351,7 @@
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
                 h4.mb-4 Zona administrativa
-                p Aquí se desarrollan actividades principalmente de mantenimiento de los equipos técnicos y mecánicos que utilice el área operativa.
+                p En otras palabras, es el área destinada para las oficinas, atención al cliente o los transportadores, salas de reunión, casino, vestieres; o como se denomina en calidad gestión organizacional del almacén.
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema1/t1_30.png', alt='').img350.m-auto
@@ -421,8 +425,11 @@
           h4 Utilización de muelles
           p La descarga se realiza mediante muelles industriales, los cuales son hechos para trasladar productos desde el interior de los vehículos hasta las naves.
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_01.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_01.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA2")
       .row.align-items-center
@@ -430,8 +437,11 @@
           h4 Aproximación de vehículo
           p Ingreso del transporte a las instalaciones del muelle con la ayuda de posicionamiento por guías.  El conductor realiza el registro de la información tanto del vehículo como de la mercancía, fecha y hora.
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_02.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_02.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA3")
       .row.align-items-center
@@ -439,17 +449,23 @@
           h4 Alistamiento de muelle
           p El vehículo retrocede hasta tocar los topes y se detiene; en ese momento se ubica en el muelle que los operarios han preparado para recibir la mercancía.
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_03.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_03.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA4")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Acceso
           p El conductor ingresa al muelle y se da apertura a la puerta.
-        .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_04.png", alt="alt").img385.m-auto
+        .col-auto.mb-5.mb-lg-0          
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_04.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA5")
       .row.align-items-center
@@ -457,17 +473,23 @@
           h4 Aseguramiento de elementos externos
           p Colocación de tacos (uña) en las ruedas del vehículo, descenso de la rampa hasta la caja del vehículo y aseguramiento de topes móviles
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_05.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_05.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA6")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Entrega documentos
-          p Para comprobar que la mercancía recibida coincide con el registro documental como (orden de pedido, orden de picking, nota de entrega).
+          p Para comprobar que la mercancía recibida coincide con el registro documental como (orden de pedido, orden de <i>picking</i>, nota de entrega).
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_06.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_06.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA7")
       .row.align-items-center
@@ -475,8 +497,11 @@
           h4 Acoplar rampa
           p Se debe acoplar la rampa de acuerdo a la altura del vehículo.
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_07.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_07.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA8")
       .row.align-items-center
@@ -484,18 +509,24 @@
           h4 Cargue o descargue de mercancía
           p Los operarios realizan la actividad, de forma mecánica o manual; de la forma más segura (tanto para los operarios como la mercancía).
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_08.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_08.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA9")
       .row.align-items-center
         .col-lg.mb-4.mb-md-0
           h4 Inspección de mercancía
-          p Inicia con la verificación cuantitativa de la mercancía, cuando esté totalmente descargada y cualitativo, con una muestra de la carga. Identificando si llegaron productos con alguna inconsistencia.
+          p Inicia con la verificación cuantitativa de la mercancía, cuando esté totalmente descargada y cualitativa, con una muestra de la carga. Identificando si llegaron productos con alguna inconsistencia.
 
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_09.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_09.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA10")
       .row.align-items-center
@@ -504,8 +535,11 @@
           p Registrar las novedades en la nota de entrega, colocar los datos de quien reporta con la firma.
 
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_10.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_10.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA11")
       .row.align-items-center
@@ -514,8 +548,11 @@
           p Cerrar la puerta del vehículo, incluyendo el abrigo.
 
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_11.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_11.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
     ModalA(:abrir-modal.sync="modalA12")
       .row.align-items-center
@@ -524,10 +561,13 @@
           p Se debe retirar  del área de carga y descarga de transporte.
 
         .col-auto.mb-5.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema1/m_12.png", alt="alt").img385.m-auto
+          .float--container
+            figure
+              img(src="@/assets/curso/tema1/m_12.png", alt="alt").img385.m-auto
+            figure
+              img(src="@/assets/curso/Float_02.png", alt="alt").img150.float_02
 
-    p.mb-5 Por lo general, los muelles de carga cuentan con varios elementos, los cuales tienen la funcionalidad de proteger la mercancía de daños externos y que no se pierda mucho tiempo en la operación de carga y descarga; los elementos que hacer parte de ella, son: 
+    p.mb-5 Por lo general, los muelles de carga cuentan con varios elementos, los cuales tienen la funcionalidad de proteger la mercancía de daños externos y que no se pierda mucho tiempo en la operación de carga y descarga; los elementos que hacen parte de ella, son: 
 
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Rampa hidráulica")
@@ -575,7 +615,7 @@
             figure
               img(src='@/assets/curso/tema1/t1_36.png').img300.m-auto
 
-      .py-3.py-md-4(titulo="Pasarela")
+      .py-3.py-md-4(titulo="Topes")
         .row
           .col-md-8.mb-4.mb-md-0
             h4 Topes
@@ -588,10 +628,14 @@
       .col-lg-4.mb-5.mb-lg-0
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema1/t1_38.png", alt="alt").img300.m-auto
-      .col-lg-8
-        p Durante el desarrollo de las operaciones de la cadena logística, se pueden presentar actividades que representen un mayor nivel de ocurrencia y potencialidad de generar algún daño; estos son la carga y descarga de mercancías, por lo cual requiere una descripción de las actividades para identificar el proceso y prevenir incidentes.
-
-        p.mb-0 Para ampliar la información sobre este tema, lo invitamos a ver los vídeos “Distribución del almacén” y “Cargue y descargue de mercancías”, los cuales se encuentran en el material complementario.
+      .col-lg-8        
+        .row
+          .col-auto.ms-auto
+            .figure.mb-4
+              img(src="@/assets/curso/tema1/truck.svg", alt="alt").img100
+          .col-12
+            p Durante el desarrollo de las operaciones de la cadena logística, se pueden presentar actividades que representen un mayor nivel de ocurrencia y potencialidad de generar algún daño; estos son la carga y descarga de mercancías, por lo cual requiere una descripción de las actividades para identificar el proceso y prevenir incidentes.
+            p.mb-0 Para ampliar la información sobre este tema, lo invitamos a ver los vídeos “Distribución del almacén” y “Cargue y descargue de mercancías”, los cuales se encuentran en el material complementario.
 
     separador
 
@@ -636,29 +680,29 @@
 
         PasosA.color-primario.mb-5(tipo="n")
           div
-            h3 Recursos disponibles: 
-            p es determinar con qué se cuenta (recursos técnicos: unidades de transporte-unidades de combustible y recurso humano: cantidad de conductores), de acuerdo a las características de los productos para hacer el despacho de los pedidos y lograr entregas de forma eficaz y eficiente.
+            h3 Recursos disponibles
+            p Es determinar con qué se cuenta (recursos técnicos: unidades de transporte-unidades de combustible y recurso humano: cantidad de conductores), de acuerdo a las características de los productos para hacer el despacho de los pedidos y lograr entregas de forma eficaz y eficiente.
           div
-            h3 Puntos de entrega:  
-            p identificar los puntos de entrega (direcciones o coordenadas) en el mapa disponible, de acuerdo al sistema informático o software y base de datos de los clientes.
+            h3 Puntos de entrega
+            p Identificar los puntos de entrega (direcciones o coordenadas) en el mapa disponible, de acuerdo al sistema informático o <i>software</i> y base de datos de los clientes.
           div
-            h3 Priorización:  
-            p establecer factores externos que influyen en las rutas y entregas como: capacidad de los vehículos para transportar y características de la mercancía.
+            h3 Priorización
+            p Establecer factores externos que influyen en las rutas y entregas como: capacidad de los vehículos para transportar y características de la mercancía.
           div
-            h3 Variables de la zona: 
-            p distancias entre el almacén y puntos de entrega, zonas en común para varios pedidos, identificación de vías principales y alternas, rendimiento del combustible, paradas necesarias y condiciones de las vías.
+            h3 Variables de la zona 
+            p Distancias entre el almacén y puntos de entrega, zonas en común para varios pedidos, identificación de vías principales y alternas, rendimiento del combustible, paradas necesarias y condiciones de las vías.
           div
-            h3 Diseño de rutas: 
-            p esta actividad es la unión de todas las anteriores, es necesario todos los anteriores insumos, recursos, ubicación, variables, objetivos para establecer las rutas en el mapa disponible e integrar los elementos mencionados.
+            h3 Diseño de rutas
+            p Esta actividad es la unión de todas las anteriores, es necesario todos los anteriores insumos, recursos, ubicación, variables, objetivos para establecer las rutas en el mapa disponible e integrar los elementos mencionados.
           div
-            h3 Unidad de transporte:  
-            p asignación de los medios de transporte, dependiendo de la disponibilidad tanto del equipo como del conductor, volumen y peso de la carga, cantidad de entregas y de rutas, valor económico máximo por vehículo. 
+            h3 Unidad de transporte 
+            p Asignación de los medios de transporte, dependiendo de la disponibilidad tanto del equipo como del conductor, volumen y peso de la carga, cantidad de entregas y de rutas, valor económico máximo por vehículo. 
           div
-            h3 Rendimiento de las entregas: 
-            p el objetivo es calcular el rendimiento de las entregas e identificar los aspectos por mejorar.
+            h3 Rendimiento de las entregas
+            p El objetivo es calcular el rendimiento de las entregas e identificar los aspectos por mejorar.
           div
-            h3 Optimizar las rutas: 
-            p en este paso se cierra el ciclo, se debe actuar e implementar las acciones necesarias para optimizar la planeación de las rutas; en cuanto a distancias, costo por kilómetro, costos fijos y costos totales de la operación.
+            h3 Optimizar las rutas
+            p En este paso se cierra el ciclo, se debe actuar e implementar las acciones necesarias para optimizar la planeación de las rutas; en cuanto a distancias, costo por kilómetro, costos fijos y costos totales de la operación.
 
     h3.mb-4 Elementos clave en la planificación y optimización de rutas
 
@@ -675,7 +719,7 @@
     #t_1_3.titulo-segundo.color-secundario
       h2 1.4 Cadena logística
       
-    p.mb-5 Para comprender el concepto de cadena logística, debemos empezar por interpretar el termino logística, el cual hace referencia a planificar y colocar en marcha las actividades necesarias para desarrollar un proyecto; a nivel de empresa la logística trata de la forma de organizar el aprovisionamiento de materiales, producción, almacén y distribución de productos que adoptan las empresas. Por ejemplo, cuando asistimos a un supermercado, detrás de los productos que compramos para el consumo existe un sistema logístico que coordina las zonas de cargue y descargue, el lugar de almacenamiento de los productos, el lugar de empaque para productos de promoción, el sistema de transporte para llevarlos a las estanterías y el punto para hacer la entrega (cajas registradoras).
+    p.mb-5 Para comprender el concepto de cadena logística, debemos empezar por interpretar el término logística, el cual hace referencia a planificar y colocar en marcha las actividades necesarias para desarrollar un proyecto; a nivel de empresa la logística trata de la forma de organizar el aprovisionamiento de materiales, producción, almacén y distribución de productos que adoptan las empresas. Por ejemplo, cuando asistimos a un supermercado, detrás de los productos que compramos para el consumo existe un sistema logístico que coordina las zonas de cargue y descargue, el lugar de almacenamiento de los productos, el lugar de empaque para productos de promoción, el sistema de transporte para llevarlos a las estanterías y el punto para hacer la entrega (cajas registradoras).
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-5.mb-lg-0
@@ -683,13 +727,13 @@
           img(src="@/assets/curso/tema1/t1_41.png", alt="alt").img400.m-auto
       .col-lg-8
         .sq--pink
-          p Existen dos términos que son similares, pero no iguales: cadena logística y cadena de suministro, y se prestan para confusión en algunas ocasiones.  La cadena logística se fundamenta en aquellos medios y métodos necesarios para organizar las mercancías, llevarlas en los términos y condiciones pactadas con el cliente final.  Mientras que la cadena de suministro se refiere a todas las tareas relacionadas con la fabricación de productos, desde la adquisición de materias primas, transformación de bienes y almacenamiento (dentro del ciclo de producto) hasta hacer la entrega al cliente final.  Por tanto, la cadena logística hace parte de la cadena de suministro. Conozcamos las características más relevantes:
+          p Existen dos términos que son similares, pero no iguales: cadena logística y cadena de suministro, y se prestan para confusión en algunas ocasiones. La cadena logística se fundamenta en aquellos medios y métodos necesarios para organizar las mercancías, llevarlas en los términos y condiciones pactadas con el cliente final.  Mientras que la cadena de suministro se refiere a todas las tareas relacionadas con la fabricación de productos, desde la adquisición de materias primas, transformación de bienes y almacenamiento (dentro del ciclo de producto) hasta hacer la entrega al cliente final.  Por tanto, la cadena logística hace parte de la cadena de suministro. Conozcamos las características más relevantes:
 
     TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="Lead time")
+      .py-3.py-md-4(titulo="<i>Lead time</i>")
         .row
           .col-md-7.mb-4.mb-md-0
-            h4 Lead time
+            h4 <i>Lead time</i>
             p Mientras en la cadena de suministro se habla de todo el proceso de aprovisionamiento, en la cadena logística juega un papel importante el tiempo que lleva en realizar la operación, desde el momento que llega la orden de pedido, preparación de la mercancía y entrega al cliente.
         
           .col-md-3
@@ -719,13 +763,13 @@
             thead
               tr
                 th.py-3 CADENA DE SUMINISTRO
-                th.py-3 CADENA DE LOGISTICA
+                th.py-3 CADENA DE LOGÍSTICA
             tbody
               tr.cell--gray 
                 td
-                  | Se encarga de supervisar todo lo relacionado con fabricación, almacenamiento, logística, proveedores y entrega final
+                  | Se encarga de supervisar todo lo relacionado con fabricación, almacenamiento, logística, proveedores y entrega final.
                 td
-                  | Encargada de lograr que el producto llegue del punto inicial hasta el cliente final, en optimas condiciones tanto del producto como de tiempos
+                  | Encargada de lograr que el producto llegue del punto inicial, hasta el cliente final, en optimas condiciones tanto del producto, como de tiempos.
               tr.cell--blue
                 td(colspan='2').text-center.py-3 #[strong Actividades que desarrollan]
               tr.cell--gray 
@@ -758,60 +802,60 @@
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Información documentada
 
-    p Los sistemas de información gestionan aquellas actividades desarrolladas dentro del almacén, cuya finalidad es apoyar la gestión física de la mercancía desde que ingresa al almacén hasta que sale en los centros de almacenamiento o distribución, e incluso hacer seguimiento a las devoluciones e inconsistencias; algunos de ellos son:
+    p Los sistemas de información gestionan aquellas actividades desarrolladas dentro del almacén, cuya finalidad es apoyar la gestión física de la mercancía, desde que ingresa al almacén, hasta que sale en los centros de almacenamiento o distribución, e incluso hacer seguimiento a las devoluciones e inconsistencias; algunos de ellos son:
 
     TabsA.color-primario.mb-5
       .crd.crd--yellow(titulo="SGA")
         h4.px-4.pt-4 SGA
-        p.mb-4.px-4 Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el stock de mercancía (número de existencias registradas, equivalente a existencias físicas).
+        p.mb-4.px-4 Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el <i>stock</i> de mercancía (número de existencias registradas, equivalente a existencias físicas).
         figure
           img(src="@/assets/curso/tema1/t1_44.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="TMS")
-        h4.px-4.pt-4 TMS
-        p.mb-4.px-4 (Transport Management System) Permite planear y optimizar el transporte, seleccionar el proveedor, rastrear mercancías, optimizar cargas y manejar estadísticas.
+        h4.px-4.pt-4 TMS (<i>Transport Management System</i>)
+        p.mb-4.px-4  Permite planear y optimizar el transporte, seleccionar el proveedor, rastrear mercancías, optimizar cargas y manejar estadísticas.
         figure
           img(src="@/assets/curso/tema1/t1_45.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="ERP")
-        h4.px-4.pt-4 ERP
-        p.mb-4.px-4 (Enterprise Resource Planning) Sistema Integral de Gestión Empresarial; la finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).
+        h4.px-4.pt-4 ERP (<i>Enterprise Resource Planning</i>)
+        p.mb-4.px-4  Sistema Integral de Gestión Empresarial; la finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).
         figure
           img(src="@/assets/curso/tema1/t1_46.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="EDI")
-        h4.px-4.pt-4 EDI
-        p.mb-4.px-4 (Electronic Data Interchange) Su objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
+        h4.px-4.pt-4 EDI (<i>Electronic Data Interchange</i>)
+        p.mb-4.px-4  Su objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
         figure
           img(src="@/assets/curso/tema1/t1_47.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="RFID")
         h4.px-4.pt-4 RFID
-        p.mb-4.px-4 Sistema de navegación mediante radiofrecuencia, aplicable al transporte y/o ubicaciones dentro y fuera del almacén.
+        p.mb-4.px-4 Sistema de navegación mediante radiofrecuencia, aplicable al transporte y ubicaciones dentro y fuera del almacén.
         figure
           img(src="@/assets/curso/tema1/t1_48.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="MPS")
-        h4.px-4.pt-4 MPS 
-        p.mb-4.px-4 (Plan Maestro de Producción). Programa de producción a nivel superior que se usa para fijar el plan de producción de cualquier fábrica decidiendo qué, cuánto y en qué fecha se va a fabricar a medio plazo.
+        h4.px-4.pt-4 MPS (Plan Maestro de Producción)
+        p.mb-4.px-4 Programa de producción a nivel superior que se usa para fijar el plan de producción de cualquier fábrica decidiendo qué, cuánto y en qué fecha se va a fabricar a medio plazo.
         figure
           img(src="@/assets/curso/tema1/t1_49.png", alt="alt").m-auto
 
-      .crd.crd--yellow(titulo="Business Inteligence")
-        h4.px-4.pt-4 Business Inteligence 
+      .crd.crd--yellow(titulo="<i>Business Intelligence</i>")
+        h4.px-4.pt-4 <i>Business Intelligence</i>
         p.mb-4.px-4 Sistema inteligente que recopila, analiza y visualiza datos importantes sobre las actividades del almacén; a través del cual se puede obtener información como: rutas de transporte, recogida, recepción, tiempos de carga, emisiones de CO2, entre los principales.
         figure
           img(src="@/assets/curso/tema1/t1_50.png", alt="alt").m-auto
 
-      .crd.crd--yellow(titulo="Supply Chain Management ")
-        h4.px-4.pt-4 Supply Chain Management 
-        p.mb-4.px-4 (SCM). Gestión de la cadena de suministro. Son todos aquellos procesos donde se planifica y controla los elementos involucrados en las diferentes fases de la cadena de suministro; la logística hace parte del ciclo completo.
+      .crd.crd--yellow(titulo="<i>Supply Chain Management</i> ")
+        h4.px-4.pt-4 <i>Supply Chain Management (SCM)</i>
+        p.mb-4.px-4 Gestión de la cadena de suministro. Son todos aquellos procesos donde se planifica y controla los elementos involucrados en las diferentes fases de la cadena de suministro; la logística hace parte del ciclo completo.
         figure
           img(src="@/assets/curso/tema1/t1_51.png", alt="alt").m-auto
 
-      .crd.crd--yellow(titulo="Supply Chain Management ")
-        h4.px-4.pt-4 Customer Relationship Management  
-        p.mb-4.px-4 (CRM). Gestión de la información relativa a clientes a través de bases de datos exhaustivas; la información se orienta al tema de atención posventa (satisfacción del cliente)
+      .crd.crd--yellow(titulo="<i>Customer Relationship Management</i>")
+        h4.px-4.pt-4 <i>Customer Relationship Management (CRM)</i> 
+        p.mb-4.px-4 Gestión de la información relativa a clientes a través de bases de datos exhaustivas; la información se orienta al tema de atención posventa (satisfacción del cliente)
         figure
           img(src="@/assets/curso/tema1/t1_52.png", alt="alt").m-auto
 
@@ -827,13 +871,15 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cta--rosa
+        .cta--rosa          
+          .bubble--right
+          .dots--right
           .row.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/t1_54.png", alt="alt").img350.m-auto
-            .col-12.col-lg.px-5.pt-0.pt-lg-5
-              p.mb-4 Para ampliar la información, lo invitamos a consultar el documento #[strong “Gestión y pedido de Stock”] haciendo clic en el enlace.
+            .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
+              p.mb-4 Para ampliar la información, lo invitamos a consultar el documento #[strong “Gestión y pedido de #[i stock]”] haciendo clic en el enlace.
 
               a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/49351?page=159" target="_blank").mb-5.mb-lg-0
                 span Ingresar
@@ -846,7 +892,7 @@
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/t1_55.png", alt="alt").img100.m-auto
       .col
-        p Al hablar de tecnología es necesario conocer el concepto de informática, debido a que están relacionados y dado que comparten elementos como el hardware (conformado por los elementos físicos necesarios para procesar datos) y el software (aquellos programas y aplicaciones que hacen parte del hardware)  La combinación de los anteriores elementos hace posible la operación y funcionamiento de los sistemas de operación descritos anteriormente.
+        p Al hablar de tecnología es necesario conocer el concepto de informática, debido a que están relacionados y dado que comparten elementos como el hardware (conformado por los elementos físicos necesarios para procesar datos) y el <i>software</i> (aquellos programas y aplicaciones que hacen parte del <i>hardware</i>)  La combinación de los anteriores elementos hace posible la operación y funcionamiento de los sistemas de operación descritos anteriormente.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.
@@ -862,9 +908,9 @@
         figure
           img(src="@/assets/curso/tema1/t1_57.png", alt="alt").img130.m-auto
       .col
-        p La comunicación vía satélite logra brindar información acertada sobre la ubicación de los elementos o productos; estos a su vez se integran con la información que la empresa posee sobre pedidos, productos y transporte entre otros, volviendo más eficiente la cadena logística.   De otro lado el sistema de Radiofrecuencia (RFID) facilita la gestión, el control y eficiencia en las operaciones del almacén; a través del cual facilita el almacenamiento y recuperación de la información (datos) apoyado en los diferentes dispositivos como lectores de códigos de barras o infrarrojos y PDA principalmente.  A su vez los lectores envían los datos almacenados al software específico que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
+        p La comunicación vía satélite logra brindar información acertada sobre la ubicación de los elementos o productos; estos a su vez se integran con la información que la empresa posee sobre pedidos, productos y transporte entre otros, volviendo más eficiente la cadena logística.   De otro lado el sistema de Radiofrecuencia (RFID) facilita la gestión, el control y eficiencia en las operaciones del almacén; a través del cual facilita el almacenamiento y recuperación de la información (datos) apoyado en los diferentes dispositivos como lectores de códigos de barras o infrarrojos y PDA principalmente.  A su vez los lectores envían los datos almacenados al <i>software</i> específico que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
 
-        p Este software contiene:
+        p Este <i>software</i> contiene:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0
@@ -892,27 +938,25 @@
             li 
               .lista-ol--cuadro__vineta
                 span 5
-              | Mayor cantidad de datos almacenados.
+              | Mayor cantidad de datos almacenados.            
             li 
               .lista-ol--cuadro__vineta
                 span 6
-              | Mayor cantidad de datos almacenados.
-            li 
-              .lista-ol--cuadro__vineta
-                span 7
               | Aporta valor en el servicio de atención al cliente (mantenerse informado).
             li.mb-0
               .lista-ol--cuadro__vineta
-                span 8
-              | Amable con el medioambiente, en la reducción de papelería.
+                span 7
+              | Amable con el medioambiente, en la reducción de papeleria.
 
     p No podemos olvidar las vías de comunicación tradicionales y más utilizadas como la llamada telefónica y el correo electrónico (quien utiliza el internet como canal); a través del teléfono se puede establecer comunicación en tiempo real con interlocutores ubicados en diferentes sitios con capacidad de respuesta inmediata, mientras que el correo permite envío de documentos de manera rápida y fácil acceso para cualquier trabajador.
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .cta--yellow
+          .bubble--left
+          .dots--left
           .row.align-items-center            
-            .col-12.col-lg.px-5.pt-0.pt-lg-5.order-2.order-lg-1
+            .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               p.mb-4 Para ampliar la información, lo invitamos a consultar el documento #[strong “Gestión de operaciones de almacenaje”] haciendo clic en el enlace. 
               a.boton.color-acento-contenido-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=69" target="_blank").mb-5.mb-lg-0
                 span Ingresar
@@ -935,7 +979,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-11
-        .bloque-texto-g.clr--yellow.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.clr--yellow2.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/t1_60.jpg')})`}"
           )
@@ -950,8 +994,8 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
-                h4.mb-4 Layout  o diseño áreas de bodega
-                p - Integración entre sistemas y herramientas para una gestión más eficiente en la cadena de suministro, como: Códigos de barras, RFID (Radiofrecuencia en el control de inventarios) y GPS (optimización de rutas)
+                h4.mb-4 Características de tecnología 4.0
+                p - Integración entre sistemas y herramientas para una gestión más eficiente en la cadena de suministro, como: códigos de barras, RFID (radiofrecuencia en el control de inventarios) y GPS (optimización de rutas)
                 p - Sirven como herramienta para identificar nuevos clientes, tendencias, estrategias o ubicación del producto y centros de distribución.
                 p -Permite la integración y uso de dispositivos masivos.       
               .col-md-4
@@ -960,10 +1004,10 @@
 
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
-                h4.mb-4 Layout  o diseño áreas de bodega
+                h4.mb-4 Características de Big Data
                 p - Proceso de extracción de amplios volúmenes de datos
                 p - Principios fundamentales para que exista homogeneidad de la información: volumen de información, variedad de datos por diferentes plataformas, veracidad, velocidad en la conectividad de los centros de distribución y valor agregado en la información.
-                p - Rutas más eficientes: En la entrega de mercancías     
+                p - Rutas más eficientes: en la entrega de mercancías     
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema1/t1_62.png', alt='').img350.m-auto
@@ -1006,17 +1050,19 @@
             li 
               .lista-ol--cuadro__vineta
                 span 7
-              | Programación Mantenimiento preventivo de equipos y herramientas.   
+              | Programación mantenimiento preventivo de equipos y herramientas.   
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cta--rosa
+        .cta--rosa2
+          .bubble--right
+          .dots--right
           .row.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/t1_15.png", alt="alt").img385.m-auto
-            .col-12.col-lg.px-5.pt-0.pt-lg-5
-              h4 Material de apoyo:
+                img(src="@/assets/curso/tema1/t1_15.png", alt="alt").img500.m-auto
+            .col-12.col-lg.pt-0.pt-lg-5.txt-mg--right
+              h4 Material de apoyo
               p.mb-4 Para ampliar la información, lo invitamos a consultar #[strong “Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas”] haciendo clic en el enlace.
 
               a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45161?page=1" target="_blank").mb-5.mb-lg-0
@@ -1061,25 +1107,30 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cta--purple
+        .cta--purple2
+          .bubble--left
+          .dots--left
           .row.align-items-center            
-            .col-12.col-lg.px-5.pt-0.pt-lg-5.order-2.order-lg-1
+            .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               h4 Material de apoyo
               p.mb-4 Para ampliar la información, lo invitamos a consultar #[strong “Operaciones de almacenaje”] haciendo clic en el enlace.
               a.boton.color-acento-contenido-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50249?page=167" target="_blank").mb-5.mb-lg-0
                 span Ingresar
                 i.fas.fa-link
-
             .col-auto.order-1.order-lg-2.mb-4.mb-lg-0
               figure
-                img(src="@/assets/curso/tema3/t3_23.png", alt="alt").img385.m-auto     
+                img(src="@/assets/curso/tema3/t3_23.png", alt="alt").img385.m-auto    
+
+    h3 Imprevistos en la cadena logística 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema1/t1_65.png", alt="alt").img400.m-auto
       .col-12.col-lg
-        p A través del servicio de atención al cliente se atienden las posibles fallas que la organización debe corregir para mejorar el desempeño; aunque no es una tarea tan fácil identificar, hacer trazabilidad y corregir las inconsistencias.   
+        p A través del servicio de atención al cliente se atienden las posibles fallas que la organización debe corregir para mejorar el desempeño; aunque no es una tarea tan fácil identificar, hacer trazabilidad y corregir las inconsistencias. 
+
+    p A continuación, se describen algunas de ellas  
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 6.
@@ -1095,14 +1146,16 @@
         tbody
           tr.cell--gray 
             td(rowspan='3')
-              | #[strong Incidencias, imprevistos y/o errores humanos:]
+              | #[strong Incidencias, imprevistos y/o errores humanos]
+              br
               br
               | Hace referencia aquel hecho que se produce en cualquier actividad de la cadena log&iacute;stica y genera alg&uacute;n efecto en el resultado final.
               br
               br
               | El error humano es la causa principal de los incidentes, se puede producir a nivel interno, con proveedores o con clientes.
             td
-              | Incidencias de tipo #[strong Interno:]
+              | Incidencias de tipo #[strong Interno]
+              br              
               br
               | Se producen al interior de la empresa por emisi&oacute;n o error; por ejemplo: almacenamiento incorrecto, deterioro por ca&iacute;da del producto, falta de personal.
             td(rowspan='3')
@@ -1118,12 +1171,14 @@
               | - Asignaci&oacute;n de responsabilidades.
           tr.cell--gray 
             td
-              | Incidencias con #[strong Proveedores:]
+              | Incidencias con #[strong Proveedores]
+              br
               br
               | Se producen por error en proveedores; por ejemplo: mercanc&iacute;as erroneas, env&iacute;o fuera de pedidos, documentos con errores.
           tr.cell--gray 
             td
-              | Incidencias con #[strong Clientes]:
+              | Incidencias con #[strong Clientes]
+              br
               br
               | Aquellos incidentes que se presentan despu&eacute;s de la entrega de mercanc&iacute;as; por ejemplo: entrega incompleta o fuera de los tiempos, producto con defectos, cliente no cancela la entrega.      
 

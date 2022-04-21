@@ -2,8 +2,40 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/banner/fondo-banner-interno.jpg") !important
   background-repeat: no-repeat  
+
+/////// Float elements
+.float--container
+  position: relative
+.float_01
+  position: absolute
+  top: -5%
+  left: 10%
+  animation: floatY 3s infinite ease-in-out alternate
+
+.float_02
+  position: absolute
+  bottom: 0
+  left: -10%
+  animation: floatY 3s infinite ease-in-out alternate
+
+.float_03
+  position: absolute
+  bottom: 3px
+  left: 10%
+  animation: floatY 3s infinite ease-in-out alternate
+
+@keyframes floatY
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
+.topIndex 
+  z-index: 999 !important
   
 /////// Utilidades de imagenes
+.img85
+  width: 85px
 .img100
   width: 100px
 .img130
@@ -12,6 +44,8 @@
   width: 150px
 .img200
   width: 200px
+.img250
+  width: 250px
 .img300
   width: 300px
 .img350
@@ -33,7 +67,6 @@
 .img800
   max-width: 800px
 
-
 ////// Utilidades texto 
 
 .banner-interno__titulo__icono 
@@ -52,8 +85,8 @@
   &::before
     content: ''
     position: absolute
-    width: 50%
-    height: 35%
+    width: 55%
+    height: 45%
     top: -1rem
     right: 0
     background-color: #FFE0DD
@@ -75,6 +108,8 @@
 .bloque-texto-g
   &.clr--yellow
     background-color: #FED981
+  &.clr--yellow2
+    background-color: #F9E4B1
   &.clr--pink
     background-color: #FF8578
 
@@ -90,8 +125,6 @@
   @media only screen and (max-width: 999px)
     &::before     
       display: none 
-
-
 
 ////// Utilidades fondos
 
@@ -122,10 +155,15 @@
 /////// Utilidades tarjetas
 
 .tarjeta.tarjeta--rosa
+  background-color:#FFE7E4
+
+.tarjeta.tarjeta--rosa.acordion__activo
   background-color:#FFCEC9 
 
 .crd
   padding: 1.5rem
+  &.br--rad
+    border-radius: 15px    
   &.crd--01
     position: relative
     width: 335px
@@ -153,6 +191,14 @@
       .crd_circle        
         background-color: #FF8578
 
+  &.crd--02
+    position: relative   
+    height: 100%
+    background-color: #FFF3CD
+    transition: all 0.5s ease-out    
+    &:hover
+      background-color: #A4A3FF      
+
   &.crd--white
     background-color: white
 
@@ -171,7 +217,7 @@
      
   &.crd--gradient01
     padding: 0.5rem !important
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,243,205,1) 100%)
+    background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,243,205,1) 100%);   
 
   &.card--yellowHover    
     height: 100%
@@ -234,7 +280,6 @@
       font-weight: 600
       border-radius: 7px
 
-
   &.crd--shadow
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13)
 
@@ -263,6 +308,67 @@
     transform: translateY(calc( 100% - 4.5rem ))
     background-color: rgba(255, 247, 230, 0.9) 
 
+///////// Llamado a la acción 
+.txt-mg--left
+  margin-left: 6rem
+  @media only screen and (max-width: 1200px)
+    margin: 0
+    padding: 0 2.5rem
+
+.txt-mg--right
+  margin-right: 6rem
+  @media only screen and (max-width: 1200px)
+    margin: 0
+    padding: 0 2.5rem
+
+.bubble--left
+  position: absolute !important
+  top: 60%
+  left: 0
+  transform: translateY(-50%)
+  width: 65px
+  height: 115px
+  background-image: url("../assets/curso/bubble_left.png")
+  background-repeat: no-repeat
+  @media only screen and (max-width: 1200px)
+    display: none
+
+.bubble--right
+  position: absolute !important
+  top: 60%
+  right: 0
+  transform: translateY(-50%)
+  width: 70px
+  height: 125px
+  background-image: url("../assets/curso/bubble_right.png")
+  background-repeat: no-repeat
+  @media only screen and (max-width: 1200px)
+    display: none
+
+.dots--left
+  position: absolute !important
+  bottom: 1.5rem
+  left: 3rem
+  transform: translateY(-50%)
+  width: 127px
+  height: 18px
+  background-image: url("../assets/curso/dots.svg")
+  background-repeat: no-repeat
+  @media only screen and (max-width: 1200px)
+    display: none
+
+.dots--right
+  position: absolute !important
+  bottom: 1.5rem
+  right: 3rem
+  transform: translateY(-50%)
+  width: 127px
+  height: 18px
+  background-image: url("../assets/curso/dots.svg")
+  background-repeat: no-repeat
+  @media only screen and (max-width: 1200px)
+    display: none
+    
 .cta--purple
   position: relative  
   & > *
@@ -275,11 +381,29 @@
     width: 100%
     height: 80%
     border-radius: 15px
-    background-color: #949ff0
+    background-color: #7181F4
 
   @media only screen and (max-width: 999px)
     &::before     
-      height: 100%  
+      height: 100% 
+
+.cta--purple2
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    border-radius: 15px
+    background-color: #9aa6fa
+
+  @media only screen and (max-width: 999px)
+    &::before     
+      height: 100% 
 
 .cta--yellow
   position: relative  
@@ -315,6 +439,24 @@
 
   @media only screen and (max-width: 999px)
     &::before     
+      height: 100%   
+
+.cta--rosa2
+  position: relative  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    border-radius: 15px
+    background-color: #FFABA2
+
+  @media only screen and (max-width: 999px)
+    &::before     
       height: 100%     
 
 
@@ -325,7 +467,7 @@
 .cell--yellow  
   background-color: #FFF3CD
 .cell--blue  
-  background-color: #D2E1F1
+  background-color: #EDF3F9
 
 .customTable_01
   thead
@@ -334,6 +476,11 @@
     tr      
       th
         font-size: 1em !important
+        border: 1px solid #AFAFAF !important
+  tbody
+    tr
+      td 
+        border: 1px solid #AFAFAF !important
 
 .cell_title
   background-color: #7181F4
