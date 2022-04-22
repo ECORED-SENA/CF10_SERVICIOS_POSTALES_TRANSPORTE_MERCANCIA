@@ -103,7 +103,7 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_10.png", alt="alt")
-            h5.text-center Prepraración previa
+            h5.text-center Preparación previa
             p.text-center Seleccionar toda la información relacionada con los pedidos y organizar los recursos necesarios para la preparación.
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
@@ -130,7 +130,7 @@
               .crd_circle
                 .crd_circle--img         
                   img(src="@/assets/curso/tema1/t1_13.png", alt="alt")
-            h5.text-center Verificacion
+            h5.text-center Verificación
             p.text-center El operario vuelve a la zona de operaciones y verifica que retiró los productos correctos.
       .col-auto.mb-4(data-aos="zoom-in")
         .crd.crd--01
@@ -190,18 +190,18 @@
             thead            
             tbody
               tr.cell--gray 
-                td(style="width: 20%;") #[strong Persona al Producto]               
+                td(style="width: 20%;") #[strong Persona al producto]               
                 td La persona se desplaza a pie hasta el producto.<br><br>  <u>Requisito:</u> cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales. 
 
-              tr
-                td(style="width: 20%;") #[strong Producto a la Persona]               
-                td Desplazamiento de los pedidos hasta las personas en forma manual o automática.<br><br><u>Requisito:</u> cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos 
+              tr.cell--gray 
+                td(style="width: 20%;") #[strong Producto a la persona]               
+                td Desplazamiento de los pedidos hasta las personas en forma manual o automática.<br><br><u>Requisito:</u> cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con <i>palé</i>, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos.
 
               tr.cell--gray 
                 td(style="width: 20%;") #[strong Una persona - varios pedidos]               
                 td La persona se desplaza hasta el producto; aunque conlleva a una doble planificación y gestión.<br><br><u>Requisito:</u> cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras. 
 
-              tr
+              tr.cell--gray 
                 td(style="width: 20%;") #[strong Varias personas - varios pedidos]               
                 td Las personas se desplazan hasta los productos para prepararlos cuando lo requieran por sus características y a la vez en el mismo pedido se debe aplicar un sistema de producto a la persona.<br><br><u>Requisito:</u> desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posterior se consolida el pedido para realizar un solo envío.
 
@@ -263,7 +263,7 @@
             .row.justify-content-center.align-items-center
               .col-md-8.mb-4.mb-md-0
                 h4.mb-4 <i>Layout</i> o diseño áreas de bodega
-                p Etapa previa al diseño, la organización distribuye el espacio sobre plano e identifica las diferentes zonas de la bodega; deben tenerse en cuenta algunos factores como: volumen de la operación, tipo de mercancía y control de unidades.        
+                p Etapa previa al diseño, la organización distribuye el espacio sobre planos e identifica las diferentes zonas de la bodega; deben tenerse en cuenta algunos factores como: volumen de la operación, tipo de mercancía y control de unidades.        
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema1/t1_19.png', alt='').img350.m-auto
@@ -769,7 +769,7 @@
                 td
                   | Se encarga de supervisar todo lo relacionado con fabricación, almacenamiento, logística, proveedores y entrega final.
                 td
-                  | Encargada de lograr que el producto llegue del punto inicial, hasta el cliente final, en optimas condiciones tanto del producto, como de tiempos.
+                  | Encargada de lograr que el producto llegue del punto inicial, hasta el cliente final, en óptimas condiciones tanto del producto, como de tiempos.
               tr.cell--blue
                 td(colspan='2').text-center.py-3 #[strong Actividades que desarrollan]
               tr.cell--gray 
@@ -791,7 +791,7 @@
                 td Logística
                 td Planeación de rutas
               tr.cell--gray 
-                td Monitoreo de logistica
+                td Monitoreo de logística
                 td Gestion de inconsistencias y devoluciones
               tr.cell--gray 
                 td Servicio de atención al cliente
@@ -806,8 +806,8 @@
 
     TabsA.color-primario.mb-5
       .crd.crd--yellow(titulo="SGA")
-        h4.px-4.pt-4 SGA
-        p.mb-4.px-4 Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el <i>stock</i> de mercancía (número de existencias registradas, equivalente a existencias físicas).
+        h4.px-4.pt-4 SGA (Sistema de Gestión de Almacén)
+        p.mb-4.px-4 Cuya función más importante es mantener controlado el <i>stock</i> de mercancía (número de existencias registradas, equivalente a existencias físicas).
         figure
           img(src="@/assets/curso/tema1/t1_44.png", alt="alt").m-auto
 
@@ -830,8 +830,8 @@
           img(src="@/assets/curso/tema1/t1_47.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="RFID")
-        h4.px-4.pt-4 RFID
-        p.mb-4.px-4 Sistema de navegación mediante radiofrecuencia, aplicable al transporte y ubicaciones dentro y fuera del almacén.
+        h4.px-4.pt-4 RFID (Sistema de navegación mediante radiofrecuencia)
+        p.mb-4.px-4  Aplicable al transporte y ubicaciones dentro y fuera del almacén.
         figure
           img(src="@/assets/curso/tema1/t1_48.png", alt="alt").m-auto
 
@@ -842,19 +842,19 @@
           img(src="@/assets/curso/tema1/t1_49.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="<i>Business Intelligence</i>")
-        h4.px-4.pt-4 <i>Business Intelligence</i>
-        p.mb-4.px-4 Sistema inteligente que recopila, analiza y visualiza datos importantes sobre las actividades del almacén; a través del cual se puede obtener información como: rutas de transporte, recogida, recepción, tiempos de carga, emisiones de CO2, entre los principales.
+        h4.px-4.pt-4 <i>Business Intelligence</i> (Sistema inteligente)
+        p.mb-4.px-4  Recopila, analiza y visualiza datos importantes sobre las actividades del almacén; a través del cual se puede obtener información como: rutas de transporte, recogida, recepción, tiempos de carga, emisiones de CO2, entre los principales.
         figure
           img(src="@/assets/curso/tema1/t1_50.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="<i>Supply Chain Management</i> ")
-        h4.px-4.pt-4 <i>Supply Chain Management (SCM)</i>
+        h4.px-4.pt-4 SCM (<i>Supply Chain Management</i>)
         p.mb-4.px-4 Gestión de la cadena de suministro. Son todos aquellos procesos donde se planifica y controla los elementos involucrados en las diferentes fases de la cadena de suministro; la logística hace parte del ciclo completo.
         figure
           img(src="@/assets/curso/tema1/t1_51.png", alt="alt").m-auto
 
       .crd.crd--yellow(titulo="<i>Customer Relationship Management</i>")
-        h4.px-4.pt-4 <i>Customer Relationship Management (CRM)</i> 
+        h4.px-4.pt-4 CRM <i>(Customer Relationship Management)</i> 
         p.mb-4.px-4 Gestión de la información relativa a clientes a través de bases de datos exhaustivas; la información se orienta al tema de atención posventa (satisfacción del cliente)
         figure
           img(src="@/assets/curso/tema1/t1_52.png", alt="alt").m-auto
@@ -892,7 +892,7 @@
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/t1_55.png", alt="alt").img100.m-auto
       .col
-        p Al hablar de tecnología es necesario conocer el concepto de informática, debido a que están relacionados y dado que comparten elementos como el hardware (conformado por los elementos físicos necesarios para procesar datos) y el <i>software</i> (aquellos programas y aplicaciones que hacen parte del <i>hardware</i>)  La combinación de los anteriores elementos hace posible la operación y funcionamiento de los sistemas de operación descritos anteriormente.
+        p Al hablar de tecnología es necesario conocer el concepto de informática, debido a que están relacionados y dado que comparten elementos como el <i>hardware</i> (conformado por los elementos físicos necesarios para procesar datos) y el <i>software</i> (aquellos programas y aplicaciones que hacen parte del <i>hardware</i>)  La combinación de los anteriores elementos hace posible la operación y funcionamiento de los sistemas de operación descritos anteriormente.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.

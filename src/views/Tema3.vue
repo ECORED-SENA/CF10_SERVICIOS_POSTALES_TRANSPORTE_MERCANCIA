@@ -298,14 +298,14 @@
           h3.mb-4 Código de barras
           h5 Sistema Internacional GS1
           p Codificación de unidades envasadas.
-          p.mb-0 Representación de caracteres numericos o alfabeticos en forma de código.
+          p.mb-0 Representación de caracteres numéricos o alfabéticos en forma de código.
 
       .col-10.col-lg-4.mb-4.mb-lg-0
         .crd.crd--02.br--rad.p-5
           figure.mb-3
             img(src="@/assets/curso/tema3/t3_33.png", alt="alt").img100
           h3.mb-4 Código Datamatrix
-          h5 Código de barras bidimensionales, o código de respuesta rápida.
+          h5 Código de barras bidimensionales o código de respuesta rápida.
           p Permiten almacenar información en una matriz de puntos.
           p.mb-0 Reduce los errores en la lectura.
 
@@ -315,7 +315,7 @@
             img(src="@/assets/curso/tema3/t3_34.png", alt="alt").img100
           h3.mb-4 Etiquetas electrónicas
           h5 Etiqueta RFID
-          p Permite identificación automática usando ondas radiofrecuencias. 
+          p Permite identificación automática usando ondas de radiofrecuencia. 
           p.mb-0 Recurso más sofisticado, basado en circuitos y micropocesadores.
 
     .row.justify-content-center.mb-5
