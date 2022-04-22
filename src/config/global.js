@@ -268,36 +268,36 @@ export default {
   complementario: [
     {
       texto:
-        'Soluciones Logísticas y Aduaneras E & S. (2020). Distribución del almacén (Video)',
+        'Soluciones Logísticas y Aduaneras E & S. (2020). <i>Distribución del almacén.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=sC_SAxJcexY',
     },
     {
-      texto: 'CursoLaboral. (2021). Carga y descarga de mercancías (Video)',
+      texto: 'Curso Laboral. (2021). <i>Carga y descarga de mercancías.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ZYthsutIhDk',
     },
     {
       texto:
-        'Instituto Nacional de Higiene y Seguridad en el Trabajo. (2016). NTP 1076 Nota Técnica de Prevención: Seguridad en Muelles de carga y descarga.',
+        'Instituto Nacional de Higiene y Seguridad en el Trabajo. (2016). <i>NTP 1076 Nota Técnica de Prevención: Seguridad en Muelles de carga y descarga.</i>',
       tipo: 'Norma técnica',
       descarga: '/downloads/ntp-1076.pdf',
     },
     {
       texto:
-        'Gobierno Nacional. Ministerio de las Tecnologías de la información y las comunicaciones. (septiembre de 2020). Plan de Modernización, sector postal 2020-2024.  ',
+        'Gobierno Nacional. Ministerio de las Tecnologías de la información y las comunicaciones. (septiembre de 2020). <i>Plan de Modernización, sector postal 2020-2024.</i>',
       tipo: 'PDF',
       descarga: '/downloads/articles-150820_recurso_1.pdf',
     },
     {
       texto:
-        'ICONTEC. (2009). Norma Técnica Colombiana- NTC 5689 Especificación para el diseño, ensayo y uso de estanterías industriales.',
+        'ICONTEC. (2009). <i>Norma Técnica Colombiana- NTC 5689 Especificación para el diseño, ensayo y uso de estanterías industriales.</i>',
       tipo: 'PDF',
       descarga: '/downloads/Norma-tecnica-colombiana-NTC5689.pdf',
     },
     {
       texto:
-        'ICONTEC. (1997). Norma Técnica Colombiana- NTC 4114. Seguridad Industrial: Realización de Inspecciones planeadas.',
+        'ICONTEC. (1997). <i>Norma Técnica Colombiana- NTC 4114. Seguridad Industrial: Realización de Inspecciones planeadas.</i>',
       tipo: 'PDF',
       descarga:
         '/downloads/NTC_4114_Realizacion_de_Inspecciones_Planeadas_ICONTEC.pdf',
