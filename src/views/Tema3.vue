@@ -29,9 +29,10 @@
             .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
               p.mb-4 Para ampliar la información, lo invitamos a leer la #[strong “Norma Técnica Colombiana NTC5689 Estanterías.”] 
 
-              a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=66" target="_blank").mb-5.mb-lg-0
-                span Ingresar
-                i.fas.fa-link
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="obtenerLink('/downloads/Norma-tecnica-colombiana-NTC5689.pdf')" target="_blank").mb-5.mb-lg-0
+                span Descargar
+                i.fas.fa-link              
+               
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -316,7 +317,7 @@
           h3.mb-4 Etiquetas electrónicas
           h5 Etiqueta RFID
           p Permite identificación automática usando ondas de radiofrecuencia. 
-          p.mb-0 Recurso más sofisticado, basado en circuitos y micropocesadores.
+          p.mb-0 Recurso más sofisticado, basado en circuitos y microprocesadores.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -435,7 +436,7 @@
             .col-12.col-lg.px-5.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               p.mb-4 Para ampliar información sobre desarrollo de inspecciones, lo invitamos a descargar el PDF con  la Norma Técnica NTC 4114 Realización de Inspecciones Planeadas.
 
-              a.boton.color-acento-contenido-botones.texto-blanco(:href="obtenerLink('/downloads/6_ NTC_4114_Realizacion_de_Inspecciones_Planeadas_ICONTEC.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
+              a.boton.color-acento-contenido-botones.texto-blanco(:href="obtenerLink('/downloads/6_NTC_4114_Realizacion_de_Inspecciones_Planeadas_ICONTEC.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Descargar
                 i.fas.fa-file-download
 

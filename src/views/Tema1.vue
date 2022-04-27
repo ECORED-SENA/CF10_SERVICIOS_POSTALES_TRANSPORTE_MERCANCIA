@@ -225,8 +225,8 @@
 
     separador
 
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2 Zonas cargue y descargue    
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Zonas de cargue y descargue    
 
     figure(data-aos="fade-right").mb-5
       img(src="@/assets/curso/tema1/t1_16.png", alt="alt").m-auto
@@ -635,11 +635,11 @@
               img(src="@/assets/curso/tema1/truck.svg", alt="alt").img100
           .col-12
             p Durante el desarrollo de las operaciones de la cadena logística, se pueden presentar actividades que representen un mayor nivel de ocurrencia y potencialidad de generar algún daño; estos son la carga y descarga de mercancías, por lo cual requiere una descripción de las actividades para identificar el proceso y prevenir incidentes.
-            p.mb-0 Para ampliar la información sobre este tema, lo invitamos a ver los vídeos “Distribución del almacén” y “Cargue y descargue de mercancías”, los cuales se encuentran en el material complementario.
+            p.mb-0 Para ampliar la información sobre este tema, lo invitamos a ver los vídeos “Distribución del almacén” y “Carga y descarga de mercancías”, los cuales se encuentran en el material complementario.
 
     separador
 
-    #t_1_3.titulo-segundo.color-secundario
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Planeación de rutas   
 
     .row.justify-content-center.mb-5
@@ -660,7 +660,7 @@
             .col.mb-3.mb-sm-0              
               p.mb-0 Para ampliar la información, lo invitamos a descargar el documento #[strong “8 pasos para planificar y optimizar rutas de transporte”].
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_Guia-planificación-optimización-rutas_Bee.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_Guia-planificacion-optimizacion-rutas_Bee.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download 
 
@@ -716,7 +716,7 @@
 
     separador
 
-    #t_1_3.titulo-segundo.color-secundario
+    #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Cadena logística
       
     p.mb-5 Para comprender el concepto de cadena logística, debemos empezar por interpretar el término logística, el cual hace referencia a planificar y colocar en marcha las actividades necesarias para desarrollar un proyecto; a nivel de empresa la logística trata de la forma de organizar el aprovisionamiento de materiales, producción, almacén y distribución de productos que adoptan las empresas. Por ejemplo, cuando asistimos a un supermercado, detrás de los productos que compramos para el consumo existe un sistema logístico que coordina las zonas de cargue y descargue, el lugar de almacenamiento de los productos, el lugar de empaque para productos de promoción, el sistema de transporte para llevarlos a las estanterías y el punto para hacer la entrega (cajas registradoras).
@@ -792,7 +792,7 @@
                 td Planeación de rutas
               tr.cell--gray 
                 td Monitoreo de logística
-                td Gestion de inconsistencias y devoluciones
+                td Gestión de inconsistencias y devoluciones
               tr.cell--gray 
                 td Servicio de atención al cliente
                 td Servicio de atención al cliente
@@ -879,7 +879,7 @@
               figure
                 img(src="@/assets/curso/tema1/t1_54.png", alt="alt").img350.m-auto
             .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
-              p.mb-4 Para ampliar la información, lo invitamos a consultar el documento #[strong “Gestión y pedido de #[i stock]”] haciendo clic en el enlace.
+              p.mb-4 Para ampliar la información, lo invitamos a consultar el documento #[strong “Gestión de pedidos y #[i stock]”] haciendo clic en el enlace.
 
               a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/49351?page=159" target="_blank").mb-5.mb-lg-0
                 span Ingresar
@@ -946,7 +946,7 @@
             li.mb-0
               .lista-ol--cuadro__vineta
                 span 7
-              | Amable con el medioambiente, en la reducción de papeleria.
+              | Amable con el medioambiente, en la reducción de papelería.
 
     p No podemos olvidar las vías de comunicación tradicionales y más utilizadas como la llamada telefónica y el correo electrónico (quien utiliza el internet como canal); a través del teléfono se puede establecer comunicación en tiempo real con interlocutores ubicados en diferentes sitios con capacidad de respuesta inmediata, mientras que el correo permite envío de documentos de manera rápida y fácil acceso para cualquier trabajador.
 
@@ -1174,7 +1174,7 @@
               | Incidencias con #[strong Proveedores]
               br
               br
-              | Se producen por error en proveedores; por ejemplo: mercanc&iacute;as erroneas, env&iacute;o fuera de pedidos, documentos con errores.
+              | Se producen por error en proveedores; por ejemplo: mercanc&iacute;as erróneas, env&iacute;o fuera de pedidos, documentos con errores.
           tr.cell--gray 
             td
               | Incidencias con #[strong Clientes]

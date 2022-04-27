@@ -41,7 +41,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Planeación rutas',
+            titulo: 'Planeación de rutas',
             hash: 't_1_3',
           },
           {
